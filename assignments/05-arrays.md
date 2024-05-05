@@ -48,3 +48,19 @@
 1. [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)
 2. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 3. [Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/)
+
+Solution Question Number 1- Easy
+
+
+class Solution {
+    public int[] buildArray(int[] arr) {
+        int [] ans=new int [arr.length] ;
+     
+
+        for(int i=0;i<arr.length;i++){
+
+            ans[i]=arr[arr[i]];
+        }
+        return ans;
+    }
+}
